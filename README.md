@@ -30,18 +30,6 @@ Técnicas y Herramientas modernas. Grupo: Ecuacionistas
 <hr>
 </td>
 
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
 
 <td>
 <img src="joaco.png"       alt="Joaquín Hidalgo"          width="140"  height="180">
@@ -51,19 +39,6 @@ Técnicas y Herramientas modernas. Grupo: Ecuacionistas
 <hr>
 </td>
 
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
 
 <td>
 <img src="Bauti.png"       alt="Bautista Coppede Santo"          width="140"  height="180">
@@ -73,19 +48,6 @@ Técnicas y Herramientas modernas. Grupo: Ecuacionistas
 <hr>
 </td>
 
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
 
 <td>
 <img src="Augusto.png"       alt="Augusto Salvatierra"          width="140"  height="180">
@@ -94,20 +56,6 @@ Técnicas y Herramientas modernas. Grupo: Ecuacionistas
 <li> <a href="mailto:saugusto16@gmail.com">Enviar correo</a> </li>
 <hr>
 </td> 
-
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
-<td>
-<p>
-</td>
 
 
 </tr>
