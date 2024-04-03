@@ -1,0 +1,43 @@
+---
+title: "Resumen de costos"
+author: "Ecuacionistas"
+date: "2024-03-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the *Knit* button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+{r cars}
+summary(cars)
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+{r pressure, echo=FALSE}
+plot(pressure)
+
+
+Note that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Comandos
+
+1. summary(): Este comando te da un resumen estadístico de una variable o dataframe. Es una herramienta muy útil para obtener una vista rápida de tus datos.
+
+2. ggplot2: Este paquete te permite crear visualizaciones de datos hermosas e informativas. Es una herramienta muy popular entre los usuarios de R.
+
+3. for: Este comando te permite ejecutar un bloque de código un número determinado de veces. Es una herramienta muy útil para automatizar tareas repetitivas.
+
+4. ifelse: Este comando te permite ejecutar un bloque de código si se cumple una condición y otro bloque de código si no se cumple. Es una herramienta muy útil para tomar decisiones en tu código.
+
+5. sapply: Este comando te permite aplicar una función a un vector o dataframe y obtener un vector o dataframe como resultado. Es una herramienta muy útil para trabajar con conjuntos de datos.
+
