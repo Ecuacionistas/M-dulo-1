@@ -1,0 +1,467 @@
+---
+title: "Página HTML"
+author: "Ecuacionistas"
+date: "2024-06-05"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 256
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=tex}
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Lenguajes de metatexto}
+\author{Ecuacionistas}
+```
+\\begin{document}
+
+\date{March 2024}
+
+```{=tex}
+\maketitle
+\begin{description}
+    \item Ferrando Bustos, Ezequiel N° de legajo: 12622
+    \item Coppede Santos, Bautista N° de Legajo: 12742
+    \item Salvatierra Villalba, Augusto N° de Legajo: 13573
+    \item Hidalgo, Joaquin N° de Legajo: 12497
+\end{description}
+```
+\section{Lenguaje HTML}
+
+El HTML (Hyper Text Mark-up Language) es el lenguaje de programación utilizado para crear y reconocer documentos hipermedia a los que accedemos a través de la red Internet. Este lenguaje consiste en un sistema de introducción de marcas de referencia en un
+fichero de texto, basado en el estilo SGML (Standard Generalized Markup Language), utilizado para la creación de documentos hipertexto, que en WWW generalmente poseen la extensión "html".
+
+Se puede considerar el lenguaje HTML como una colección de estilos que define los diversos componentes de un documento WWW. El código HTML describe cómo serán mostrados los elementos del texto (párrafos, listas, listas numeradas, listas de definición...)
+en la pantalla del ordenador cliente cuando se esté utilizando lo que denominamos navegador, visualizador o "browser" y tengamos abierta esa página en concreto. El estándar actual del lenguaje HTML (3.2) soporta la creación de documentos hipermedia básicos
+así como formatos interactivos, imágenes, tablas , opciones de formato, frames, interacción con otros lenguajes de programación como Java o VRML, etc.
+
+HTML utiliza lo que llamamos etiquetas de marca para indicar al browser del Web cómo mostrar el texto.
+
+Las etiquetas de marca que usamos en HTML consisten en un corchete izquierdo(\<), (el símbolo "menor que''), al que sigue el nombre de la etiqueta y cerrado por un corchete derecho(\>). Las etiquetas por lo general se utilizan en parejas, ej. <B> y </B>.
+La etiqueta de cierre es exactamente igual que la de inicio, excepto que una diagonal (/) precede al texto entre los corchetes. Así, <B> indica al browser del Web que empiece a formatear texto en negrita, </B> indica al "browser" que finaliza el texto en
+negrita.
+
+La principal excepción a la regla de pares de etiquetas es la etiqueta
+
+<P>, pues no es imprescindible una</P>
+
+. De todas formas las reglas de estilo en HTML aconsejan que se coloquen estas etiquetas de cierre.
+
+ATENCIÓN: A HTML le es indiferente el que se escriba con mayúsculas, minúsculas o combinaciones de ambas una instrucción o etiqueta.
+
+<title>
+
+es equivalente a
+
+<TITLE>
+
+ó
+
+<TiTlE>
+
+.
+
+\subsection{Formato}
+
+\subsubsection{Título}
+
+Cada documento de HTML debe tener un título. El título se despliega generalmente separado del documento (aparecerá en la parte superior de la ventana del navegador, normalmente resaltado con el fondo en azul). Se pueden seleccionar aproximadamente unas
+doce palabras para describir en el título el propósito del documento.
+
+\subsubsection{Encabezados}
+
+HTML tiene seis niveles de encabezados, numerados del 1 al 6, siendo el nivel 1 el que más resalta el texto. Vendría a ser algo parecido a combinar el uso de la negrita y seis tamaños distintos de tipo de letra . Podemos usar estos seis niveles para
+destacar grados de importancia dentro de las partes del texto, dejando
+
+<H1>
+
+para lo más importante (título del documento) y
+
+<H2>
+
+,
+
+<H3>
+
+... para los distintos subapartados. El primer encabezado en cada documento debe de estar etiquetado de la siguiente manera:
+
+<H1>
+
+. La sintaxis de la etiqueta del encabezado es:
+
+<Hy>Texto del encabezado</Hy>
+
+donde y es un número entre 1 y 6 que especifica el nivel del encabezado.
+
+\subsubsection{Párrafo}
+
+A diferencia de los documentos en la mayoría de los procesadores de textos, las interlíneas en HTML carecen de significado. Carece de importancia la forma en que el documento esté escrito en el código fuente, ya tenga múltiples espacios en blanco, saltos
+de línea, etc., pues una vez que éste se ejecuta, HTML lo formatea automáticamente y lo adecúa al ancho de la página.
+
+Para poder manipular y modificar el aspecto final del texto, tanto en cuanto a la presentación de las fuentes como a la disposición de los párrafos, líneas, etc. en la página se utilizan los siguientes comandos: <B> texto en negritas <I> en itálica o
+cursiva <TT> texto de ancho fijo (similar al de máquina de escribir). <EM> para mostrar énfasis. Generalmente en itálica. (Acuerdate de no llegar tarde.) <CITE> para títulos de libros, películas, etc. Generalmente en itálica. (El Siglo de las Luces)
+<STRONG> para un énfasis fuerte. Por lo general mostrado en negritas. (Esto está más fuerte que el resto)
+
+<PRE>
+
+Para introducir texto preformateado. En este caso si es importante el número de espacios en blanco o saltos de línea del código fuente, pues éstos se reflejaran en la presentación del texto. P.e. Sopa de letras.
+
+T E Ñ L I O P S E H R
+
+R A H Y E P E S J Q I
+
+E Q P O J H R E A E M
+
+M O L E R T I T O J S
+
+I T I P Z O E N J H O
+
+V L A F O N T A I N E
+
+Ñ E M S H A U S O R N
+
+E T E D M I D E L U J
+
+K U Ñ A K E E D Z Q O
+
+E V O L I A J I M Z E
+
+R E Z I H Q U Z E U S
+
+<BLINK>
+
+Nos muestra en pantalla el texto parpadeante. Ideal para resaltar algo especialmente importante o novedoso.
+
+<FONT SIZE="">...</FONT>
+
+Podemos dar un tamaño de 1 a 7 o bien indicar +y o -y (y es un número) para incrementar o disminuir el tamaño con respecto al resto de la página.
+
+<BODY BACKGROUND="imagen.gif">
+
+Nos permite utilizar una imagen como fondo de nuestra página.
+
+\<BODY BGCOLOR="#RRVVAA" Nos permite dar un color determinado al fondo de la página.
+
+\<BODY TEXT="#RRVVAA" Cambia el color del texto
+
+Del mismo modo actúan LINK, VLINK y ALINK en el color de los enlaces, enlaces visitados y enlaces al hacer clik de ratón respectivamente.
+
+La expresión #RRVVAA hace referencia al color, de forma que los dos primeros digitos representan el rojo, los dos siguientes el verde y los dos últimos el azul. Un 0 indica ausencia de color y F color máximo. Entre ambos hay una gama de colores que se
+puede modificar indicando una cifra (que deberíamos obtener convirtiendo la cifra del color en hexadecimal, de 0 a 256, a su equivalente decimal) en lugar de 00 o FF. De este modo tenemos las siguientes correspondencias:
+
+FF0000: ROJO
+
+00FF00: VERDE
+
+0000FF: AZUL
+
+000000: NEGRO
+
+FFFFF: BLANCO
+
+FFFF00: AMARILLO
+
+\subsubsection{Centrado de parrafos}
+
+<CENTER>
+
+Colocará el texto centrado en la página Si tecleamos el código:
+
+<CENTER>Esto es un párrafo centrado</CENTER>
+
+.
+
+\subsubsection{Alineado de parrafos}
+
+Un párrafo puede alinearse a la izquierda, centro o derecha. El párrafo en cuestión debe estar contenido entre las órdenes
+
+<P Align="left|center|right">
+
+</P>
+
+(donde el simbolo "\|" representa las posibilidades que podemos usar), utilizando la opción correspondiente.
+
+Por ejemplo:
+
+<P Align="left">
+
+Este es un párrafo alineado a la izquierda
+
+</P>
+
+<P Align="center">
+
+Este párrafo está centrado
+
+</P>
+
+<P Align="right">
+
+Este es un párrafo alineado a la derecha
+
+</P>
+
+.
+
+\subsubsection{Separadores horizontales}
+
+Un recurso para mejorar el aspecto de nuestras páginas son las líneas horizontales, que conseguimos con la orden
+
+<HR>
+
+. Este separador horizontal puede modificarse en longitud y en altura. La modificación en altura se realiza con la orden
+
+<HR size="n">
+
+donde "n" representa la anchura de la línea en puntos. La longitud del separador puede modificarse con la orden
+
+<HR width="n">
+
+. Ambas órdenes pueden combinarse en un mismo separador, que siempre aparecerá centrado.
+
+Por ejemplo:
+
+<HR>
+
+<HR size="15">
+
+<HR width="100">
+
+\<HR size="15, width="100"\>
+
+\subsubsection{Listas}
+
+En HTML se pueden hacer listas sin numerar, numeradas, listas anidadas y listas de definiciones.
+
+LISTAS SIN NUMERAR:
+
+Cuando queramos realizar una lista no numerada,
+
+Comenzaremos con la etiqueta que abra la lista
+
+<UL>
+
+. A continuación pondremos una etiqueta a cada elemento de la lista
+
+<LI>
+
+. (De forma similar a como ocurre con
+
+<P>
+
+no es necesario usar una etiqueta
+
+</LI>
+
+para cerrar cada elemento de la lista.) Al final se pone la etiqueta que cierra la lista no numerada
+
+</UL>
+
+. Ejemplo de una lista de dos elementos:
+
+```         
+<UL> 
+
+<LI> Billie Holiday</LI>
+
+<LI> Ella Fitzgerald </LI>
+
+</UL> 
+```
+
+LISTAS NUMERADAS:
+
+Una lista numerada (u ordenada, es igual a una no numerada, pero esta usa la etiqueta
+
+<OL>
+
+en lugar de
+
+<UL>
+
+. Los elementos de la lista se etiquetan igual que anteriormente con
+
+<LI>
+
+. El siguiente código HTML:
+
+```         
+ <OL> 
+
+<LI> Billie Holiday </LI>
+
+<LI> Ella Fitzgerald </LI>
+
+<LI> Nina Simone </LI>
+
+</OL> 
+```
+
+LISTAS DE DEFINICIONES:
+
+Una lista de definiciones está formada normalmente por un término (
+
+<DT>
+
+) y una definición (
+
+<DD>
+
+). Los browsers del Web generalmente formatean la definición en una nueva línea.
+
+Este es un ejemplo de una lista de definición:
+
+```         
+<DL> 
+
+<DT> DOYLE (Sir Arthur Conan) </DT>
+
+<DD> DOYLE (Sir Arthur Conan). Novelista y médico inglés (Edimburgo 
+```
+
+1859 - Crowborough, Sussex, 1930). Creador de Sherlock Holmes.
+
+</DD>
+
+```         
+<DT> Camus (Albert) </DT>
+
+<DD> Camus (Albert)- Escritor francés (Mondovi, Argelia,
+```
+
+1913 - Villeblevin, Yonne, 1960).
+
+</DD>
+
+```         
+</DL> 
+```
+
+LISTAS ANIDADAS:
+
+Las listas pueden ser anidadas arbitrariamente, aunque en la práctica parece conveniente limitar las anidaciones a tres niveles. También se pueden tener varios parrafos, cada uno conteniendo una lista anidada como un solo elemento de la lista.
+
+Aquí tenemos un ejemplo de una lista anidada:
+
+```         
+ <UL> 
+
+<LI> Ejemplos de grandes músicos de todo el mundo: </LI>
+
+    <UL> 
+
+    <LI> Laura Pausini </LI>
+
+    <LI> Bill Clinton </LI>
+
+    </UL> 
+
+<LI> Algunos grandes músicos o cantantes españoles:  </LI>
+
+    <UL> 
+
+    <LI> Luis Cobos </LI>
+
+    <LI> Jesulín de Ubrique </LI>
+
+    </UL> 
+
+</UL> 
+```
+
+\subsection{Hipervínculos}
+
+HTML permite crear hipervínculos entre diferentes páginas web o dentro de la misma página, lo que permite a los usuarios navegar fácilmente por el contenido.
+
+\subsubsection{Enlaces a otros documentos}
+
+Una de las principales ventajas de HTML estriba en su capacidad de enlazar regiones de texto e imágenes con otro documento. El browser enfatiza estas regiones (con un color distinto al resto y subrayadas) para indicar que son enlaces de hipertexto o
+hiperenlaces. (A menudo descritos como hyperlinks o simplemente links).
+
+Algunos de los recursos externos a los que podemos acceder desde el browser son :
+
+Páginas HTML (<http://>...)
+
+Gopher (<gopher://>...). Este recurso tiende a desaparecer absorvido por el web.
+
+Servidores FTP (<ftp://>...)
+
+News (<news://>...)
+
+Imágenes (formato .gif o .jpg)
+
+Ficheros multimedia. En este caso será preciso configurar Netscape para asociarlo a otras aplicaciones externas que permitan visualizar estos ficheros de sonido (.wav), video (.avi o .mpg), etc.)
+
+El enlace para los hipertextos es <A>, que significa ancla.
+
+\subsubsection{Enlaces apartes especificas de otros documentos}
+
+También se pueden utilizar anclas para moverse a una sección en particular dentro de un documento. Suponga que quiere crear un enlace del documento A hacia una sección en particular del documento B. (Llamémosle el documentoB.html.) Primero necesita poner
+un ancla con nombre en el documento B. Por ejemplo, para poner un ancla llamada "seccion2'' al documento B, ponga:
+
+Aquí hay <A NAME="seccion2">algún texto</a>
+
+Ahora, al crear el enlace en el documento A, incluiremos no sólo el nombre del archivo, sino el ancla con nombre, separada por el signo (\#) o almohadilla.
+
+Este es mi <A HREF="documentoB.html#seccion2">enlace</A> al documento B.
+
+Así, al hacer click en la palabra ''enlace'' en el documento A lleva al lector directamente a las palabras ''algún texto'' en el documento B.
+
+\subsubsection{Enlaces a partes especificas dentro del mismo documento}
+
+La técnica es exactamente la misma, pero el nombre del archivo se omite. E
+
+Por ejemplo, para ligar el ancla seccion2 dentro del mismo archivo (Documento B), se hace lo siguiente:
+
+Ésta es <A HREF="#seccion2">Enlace seccion2</A> la
+
+referencia dentro del documento B.
+
+\subsubsection{Enlaces mediante imagenes}
+
+Para utilizar una imagen como enlace basta reemplazar o añadir al texto que sirve de enlace la referencia a una imagen.
+
+Si hacemos:
+
+<P>
+
+Pulse en la imagen para conectar con la Universidad de Granada
+
+<A HREF="http://www.ugr.es"><img src="Images/logo_ugr.gif" align="middle"/></A>
+
+\subsection{Imagenes y Multimedia}
+
+HTML permite la inclusión de imágenes, vídeos, audio y otros elementos multimedia en una página web, lo que enriquece la experiencia del usuario.
+
+\subsection{Formularios}
+
+HTML proporciona elementos para crear formularios interactivos que los usuarios pueden utilizar para enviar información, como comentarios o pedidos, a través de la página web.
+
+Un formulario para el envío de datos tiene la siguiente estructura básica:
+
+<FORM ACTION="mailto:dirección e-mail" METHOD="POST">
+
+....
+
+</FORM>
+
+Dentro del formulario aparecen los campos que se han de rellenar. Par ello usamos alguna de las siguientes posibilidades:
+
+Campo de texto: Nombre del campo que se ha de rellenar <INPUT NAME="nombre del campo" size="20">
+
+Area de texto:Texto que acompaña a la ventana:
+
+```{=html}
+<TEXTAREA NAME="nombre del campo" ROWS="n de filas" COLS="n de columnas"></TEXTAREA>
+```
+Listas desplegables: definen campos con valores predefinidos. Por ejemplo: <SELECT NAME="nombre del campo"> <OPTION>Si <OPTION>No <OPTION>No sabe / No contesta </SELECT> crea un campo de selección con tres valores, que se desplegarán al pinchar con el
+ratón.
+
+Finalmente, para enviar la información a la dirección de correo previamente señalada, usaremos las instrucciones: <INPUT TYPE="SUBMIT" VALUE="texto del botón de enviar datos"> para definir un botón para el envío. INPUT TYPE="RESET" VALUE="texto del botón
+de borrar datos"\> para definir un botón que borre los datos introducidos hasta ese momento.
