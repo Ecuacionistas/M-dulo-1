@@ -1,12 +1,18 @@
 ---
-title: "Página HTML"
-author: "Ecuacionistas"
-date: "2024-06-05"
-output: html_document
-editor_options: 
-  markdown: 
-    wrap: 256
----
+title: Página de HTML
+authors:Ecuacionistas
+  - name: Ricardo R. Palma
+    thanks: Use footnote for providing further information about author (webpage, alternative address)---*not* for acknowledging funding agencies. Optional.
+    department: Department of Industrial Enginnering
+    affiliation: Instituto de Ingeniería Industrial
+    location: Mendoza, PA 5502 Argentina
+    email: rpalma@uncu.edu.ar
+  - name: Gustavo A. Masera
+    department: Historia del Pensamiento Económico
+    affiliation: IMESC - Fac. Filosofía y Letras
+    location: Universidad Nacional de Cuyo - Mendoza Argentina
+    email: gmasera@gmail.com
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
