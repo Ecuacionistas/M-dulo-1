@@ -55,15 +55,15 @@ La principal excepción a la regla de pares de etiquetas es la etiqueta
 
 ATENCIÓN: A HTML le es indiferente el que se escriba con mayúsculas, minúsculas o combinaciones de ambas una instrucción o etiqueta.
 
-<title>
+'<title>'
 
 es equivalente a
 
-<TITLE>
+'<TITLE>'
 
 ó
 
-<TiTlE>
+'<TiTlE>'
 
 .
 
