@@ -1,0 +1,255 @@
+---
+title: "Texto Mark Down"
+author: "Ecuacionistas"
+  - name: "Ricardo R. Palma"
+    department: "Department of Industrial Engineering"
+    affiliation: "Instituto de Ingeniería Industrial"
+    location: "Mendoza, PA 5502 Argentina"
+    email: "rpalma@uncu.edu.ar"
+  - name: "Gustavo A. Masera"
+    department: "Historia del Pensamiento Económico"
+    affiliation: "IMESC - Fac. Filosofía y Letras"
+    location: "Universidad Nacional de Cuyo - Mendoza Argentina"
+    email: "gmasera@gmail.com"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Mark Down (.md)}
+\author{Bautista Coppede Santos}
+\date{March 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Mark Down (.md)}
+Markdown es un lenguaje de marcado ligero que utiliza una sintaxis sencilla para definir la estructura y el estilo del texto. Se caracteriza por su facilidad de aprendizaje y uso, lo que lo convierte en una alternativa atractiva a los editores de texto tradicionales como Word.
+
+
+\subsection{La historia de Markdown:} 
+\begin{description}
+    
+
+
+    \item Introducción:
+
+Markdown ha revolucionado la forma en que escribimos y formateamos documentos. Su sintaxis simple y legible ha convertido este lenguaje de marcado ligero en una herramienta popular para una amplia variedad de aplicaciones. En este artículo, exploraremos la historia de Markdown, desde su nacimiento hasta su evolución y adopción actual.
+
+    \item 2004: El origen de Markdown
+
+En 2004, John Gruber, un reconocido desarrollador web, publicó un artículo titulado "Markdown". En este artículo, Gruber presentaba un nuevo lenguaje de marcado ligero que buscaba un equilibrio entre la simplicidad del texto plano y la flexibilidad del formato HTML. La sintaxis de Markdown se basaba en caracteres comunes, como asteriscos y guiones bajos, para crear encabezados, listas y otros elementos de formato.
+
+    \item 2004-2006: Desarrollo y adopción temprana
+
+En los años siguientes a su publicación, Markdown experimentó un rápido crecimiento en popularidad. Aaron Swartz, un joven programador y activista, realizó contribuciones significativas a la sintaxis de Markdown, simplificándola y haciéndola más intuitiva.
+
+Diversos sitios web y plataformas comenzaron a integrar soporte para Markdown, incluyendo GitHub, Reddit, y Stack Overflow. Esta adopción temprana por parte de la comunidad online contribuyó a la difusión y el uso generalizado de Markdown.
+
+    \item 2007-2014: Expansión y diversificación
+
+La década de 2007 a 2014 marcó un período de expansión y diversificación para Markdown. Se crearon diversas herramientas y editores compatibles con Markdown, como Sublime Text, Atom, y Typora. Estos editores facilitaron la escritura y edición de documentos en Markdown, ofreciendo resaltado de sintaxis, autocompletado y otras funcionalidades útiles.
+
+    \item 2015-presente: Consolidación y evolución
+
+En la actualidad, Markdown se ha consolidado como un lenguaje de marcado estándar para la creación de contenido digital. Su uso se extiende a una amplia variedad de contextos, desde la redacción de blogs y apuntes hasta la elaboración de documentación técnica y sitios web.
+
+La comunidad de Markdown continúa activa, desarrollando nuevas herramientas, extensiones y plugins que amplían las funcionalidades del lenguaje. Se espera que Markdown siga siendo una herramienta relevante en el futuro, gracias a su sencillez, versatilidad y facilidad de uso.
+
+
+    \item Impacto de Markdown:
+
+Markdown ha democratizado la creación de contenido digital, permitiendo que personas sin conocimientos técnicos puedan escribir documentos con formato atractivo.
+Ha facilitado la colaboración en equipo, al permitir que los documentos sean fácilmente revisados y editados por diferentes personas.
+Ha contribuido a la mejora de la legibilidad y accesibilidad del contenido online.
+    \item Futuro de Markdown:
+
+Se espera que Markdown siga siendo un lenguaje de marcado relevante en el futuro.
+La evolución de Markdown se enfocará en la integración con nuevas tecnologías, como la inteligencia artificial y la realidad virtual.
+La comunidad de Markdown seguirá desarrollando nuevas herramientas y recursos para facilitar el uso del lenguaje.
+Conclusión:
+
+La historia de Markdown es un recorrido por la evolución de un lenguaje que ha cambiado la forma en que escribimos y formateamos documentos. Su simplicidad, flexibilidad y comunidad activa lo convierten en una herramienta poderosa para la creación de contenido digital en la era actual.
+
+\end{description}
+
+
+\subsection{Ventajas:}
+
+\begin{description}
+
+    \item {Eficiencia: Markdown permite escribir y formatear texto de forma simultánea, eliminando la necesidad de navegar por menús y barras de herramientas.}
+    \item Claridad: La sintaxis de Markdown es intuitiva y fácil de comprender, lo que facilita la revisión y edición de documentos.
+    \item Compatibilidad: Los archivos Markdown se pueden convertir a diversos formatos, como HTML, PDF y Word, garantizando la compatibilidad con diferentes plataformas y software.
+    \item Versatilidad: Markdown es ideal para crear una amplia variedad de documentos, desde informes técnicos hasta presentaciones y blogs.
+
+\end{description}
+
+\subsection{Desventajas:}
+
+\begin{description}
+
+\item Limitaciones de formato:
+
+Si bien Markdown ofrece una estructura básica, no posee la misma flexibilidad de formato que un editor WYSIWYG como Word. La creación de diseños complejos o la utilización de estilos personalizados no es posible de forma nativa. Opciones como el color de fuente o el tamaño de letra específico no están disponibles en Markdown.
+
+\item Curva de aprendizaje:
+
+A pesar de su sintaxis simple, Markdown requiere un período de aprendizaje para comprender sus comandos y estructuras. Para usuarios no familiarizados con el código, escribir documentos con formato complejo puede resultar dificultoso al principio. Además, la existencia de diferentes "sabores" de Markdown con pequeñas variaciones en la sintaxis puede generar confusiones.
+
+\item Dependencia de herramientas:
+
+Visualizar el formato final del documento requiere un editor o visor compatible con Markdown. Compartir un archivo Markdown con alguien que no posea un editor compatible puede resultar en la visualización incorrecta del formato. La conversión a otros formatos como PDF o HTML puede generar errores o pérdida de información.
+
+\item Falta de soporte para algunas funcionalidades:
+
+Markdown no posee soporte nativo para funcionalidades como tablas de contenido, referencias cruzadas o notas al pie. Implementar estas funcionalidades requiere el uso de herramientas adicionales o extensiones específicas. La integración con otros programas o plataformas puede ser limitada.
+
+\item Seguridad:
+
+Los archivos Markdown son archivos de texto plano, lo que los hace vulnerables por defecto. Compartir un archivo Markdown que contiene información confidencial podría exponerla a cualquier persona con acceso al archivo. Se requieren medidas adicionales para proteger la información confidencial en archivos Markdown.
+
+\centering\textbf{Conclusión:}
+
+Markdown es una herramienta útil para la creación de documentos con formato simple, pero presenta limitaciones que deben ser consideradas. Si se requieren documentos con diseños complejos o funcionalidades avanzadas, es recomendable utilizar un editor WYSIWYG o un lenguaje de marcado más potente como LaTeX. La elección de la herramienta adecuada dependerá de las necesidades específicas de cada usuario.
+
+\end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Comandos básicos:}
+
+\begin{description}
+
+    \item Encabezados: Se utilizan para estructurar el contenido y crear una jerarquía visual. Se definen con el símbolo # seguido del número de nivel (1 para el principal, 2 para el secundario, etc.). Ejemplo: # Título principal
+
+    \item Formato de texto: Markdown permite aplicar negrita, cursiva y tachado al texto mediante símbolos específicos.
+
+    \item Negrita: Texto en negrita o dos asteriscos (**)
+    
+    \item Cursiva: Texto en cursiva o un asterisco (*)
+
+    \item Tachado: Texto tachado (~~)
+    
+    \item Listas: Se pueden crear listas numeradas o con viñetas para organizar información de forma clara y concisa.
+
+    \item Numeradas: 1. Elemento 1 2. Elemento 2
+    
+    \item Viñetas: - Elemento 1 - Elemento 2
+    
+    \item Códigos: Permite resaltar fragmentos de código con un formato especial. Se utiliza el símbolo seguido del lenguaje de programación. Ejemplo:python print("Hola mundo")
+    
+    \item Imágenes:
+    
+Insertar imágenes en Markdown es un proceso sencillo que te permite enriquecer tus documentos con contenido visual.
+
+Sintaxis básica:
+
+Para insertar una imagen en Markdown, utiliza la siguiente sintaxis:
+
+Texto alternativo: ruta/a/la/imagen
+
+Donde:
+
+Texto alternativo: Es una breve descripción de la imagen que se muestra si la imagen no se puede cargar. Es importante para la accesibilidad.
+ruta/a/la/imagen: Es la ubicación de la imagen en tu ordenador o en un servidor web. Puedes usar una ruta relativa o absoluta.
+Ejemplos:
+
+Imagen de un gato: gato.jpg
+
+Imagen de un paisaje: https://www.ejemplo.com/paisaje.jpg
+
+Opciones adicionales:
+
+Título: Puedes añadir un título a la imagen que se muestra al pasar el cursor sobre ella.
+Imagen de un gato: gato.jpg "Mi gato peludo"
+
+Tamaño: Puedes especificar el tamaño de la imagen usando la siguiente sintaxis:
+Imagen de un gato: gato.jpg "Mi gato peludo"(width=200px)
+
+Alineación: Puedes alinear la imagen a la izquierda, derecha o centro usando la siguiente sintaxis:
+Imagen de un gato: gato.jpg "Mi gato peludo"(align=left)
+
+Consejos:
+
+Utiliza nombres descriptivos para tus archivos de imagen.
+Optimiza tus imágenes para la web para que se carguen rápidamente.
+Añade texto alternativo a todas tus imágenes para mejorar la accesibilidad.
+Utiliza un editor de Markdown que te ayude a insertar imágenes de forma fácil y rápida.
+Recursos adicionales:
+
+\end{description}
+
+
+\subsection{Aplicaciones de MarkDown:}
+
+\begin{description}
+
+    \item Escritores y bloggers:
+
+Markdown facilita la escritura de textos con formato atractivo, sin necesidad de conocimientos técnicos.
+Los encabezados, listas, negritas, cursivas y demás elementos se crean con una sintaxis simple e intuitiva.
+Se pueden crear documentos con una estructura clara y organizada, mejorando la legibilidad del contenido.
+
+    \item Estudiantes y profesores:
+
+Markdown es ideal para tomar apuntes en clase o escribir documentos académicos.
+Permite organizar ideas de forma clara y concisa, utilizando diferentes formatos para resaltar conceptos importantes.
+Se pueden crear documentos con imágenes, tablas y código, facilitando la comprensión de temas complejos.
+Desarrolladores y programadores:
+
+Markdown se utiliza para escribir documentación técnica de software, APIs y proyectos de código abierto.
+La sintaxis simple facilita la creación de documentos con una estructura clara y consistente.
+Se pueden incluir ejemplos de código, diagramas y tablas para mejorar la comprensión de la documentación.
+Diseñadores web y creadores de contenido:
+
+Markdown se utiliza para crear wireframes, bocetos y prototipos de sitios web.
+Permite definir la estructura y el contenido de las páginas web de forma rápida y sencilla.
+Se puede utilizar para crear contenido para redes sociales, blogs y sitios web con un formato atractivo.
+
+    \item Colaboración en equipo:
+
+Markdown facilita la colaboración en documentos entre diferentes usuarios.
+Los documentos en Markdown pueden ser fácilmente editados y revisados por varias personas.
+Se pueden utilizar herramientas online para gestionar la colaboración en tiempo real.
+
+
+    \item Más allá de las aplicaciones tradicionales:
+
+Markdown se utiliza para crear ebooks, presentaciones, emails y publicaciones en redes sociales.
+Se puede utilizar para escribir guiones, poemas, canciones y otras obras creativas.
+Se puede integrar con otras herramientas y aplicaciones para ampliar sus funcionalidades.
+
+
+
+
+
+\end{document}
